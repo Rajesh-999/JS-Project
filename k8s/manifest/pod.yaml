@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myjs  
+spec:
+  containers:
+  - name: myjscontainer
+    image: rajesh860/my-js:v1
+    ports:
+    - containerPort: 80
